@@ -1,0 +1,29 @@
+CounterStrike_Global_Offensive:
+    min_samples = dimension * 2
+        样本总量为：3441
+        聚类1中的样本共为：107
+        比例为：0.0311
+    min_samples = 1
+        样本总量为：3441
+        聚类1中的样本共为：94
+        比例为：0.0273
+
+PUBG_BATTLEGROUNDS:
+    min_samples = dimension * 2
+        样本总量为：1386
+        聚类1中的样本共为：67
+        比例为：0.0483
+    min_samples = 1
+        样本总量为：1386
+        聚类1中的样本共为：60
+        比例为：0.0433
+
+Forza_Horizon_5:
+    min_samples = dimension * 2
+        样本总量为：2129
+        聚类1中的样本共为：60
+        比例为：0.0282
+    min_samples = 1
+        样本总量为：2129
+        聚类1中的样本共为：43
+        比例为：0.0202

@@ -1,0 +1,88 @@
+# 1.列表中包含字典
+list = [
+    {
+        "steamId": "76561198423690761",
+        "Achievements": [
+            {"Title": "None",
+             "Unlock_date": "None"},
+            {"Title": "jinchengyu",
+             "Unlock_date": "19951124"}]
+    },
+    {
+        "steamId": "76561198423690761",
+        "Achievements": {
+            "Title": "None",
+            "Unlock_date": "None"}
+    }
+]
+
+print(list[0]['Achievements'])
+
+
+# 2. 修改日期，英文到数字
+"""dic = {
+    "Jan": 1,
+    "Feb": 2,
+    "Mar": 3,
+    "Apr": 4,
+    "May": 5,
+    "Jun": 6,
+    "Jul": 7,
+    "Aug": 8,
+    "Sep": 9,
+    "Oct": 10,
+    "Nov": 11,
+    "Dec": 12
+}
+
+s = ["12 Mar", "20 Aug 2020", "No data", "Locked"]
+temp = s[0].split(" ")
+temp[1] = dic[temp[1]]
+
+if len(temp) == 2:
+    temp.append("2022")
+
+print(temp)"""
+
+
+# 3. 校园网获取不到resp的问题（WinError 10060）,需要解决
+import requests
+import time
+
+url = "https://steamcommunity.com/profiles/76561199158211742/"
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+}
+
+while True:
+    try:
+        resp = requests.get(url, headers, timeout=(3, 7), verify=False)
+        break
+    except:
+        print("sleep 5sec and try again.")
+        time.sleep(5)
+        print("let us try again.")
+        continue
+
+print(resp.text)
+
+resp.close()
+
+# 按照国籍取得时区，再重新计算时间
+import pytz
+import pycountry
+# 得到用户国籍
+    nation = user_l[0].split(',')[-1].strip(' ')
+    # print(nation)
+    if nation != "unVisible":
+        # 由用户国籍，得到时区
+        sym_nation = pycountry.countries.get(name=f"{nation}").alpha_2
+        list = pytz.country_timezones[f"{sym_nation}"]
+        tz = pytz.timezone(list[0])
+        # 修改时间格式，并且导入时区
+        if user_l[2] != "Locked":
+            time_split = user_l[2].split(' ')
+            print(time_split[3], )
+            # adjusted_time = datetime.datetime( , tzinfo=tz)
+        else:
+            continue

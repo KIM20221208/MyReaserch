@@ -1,0 +1,93 @@
+p,v
+sumScore-status u count,0.135938092189854
+sumScore-screenshots,0.346566382668457
+sumScore-reviews,-0.0115610584655143
+sumScore-R,0.858550945000843
+sumScore-level,0.543927850127002
+sumScore-groups,-0.096181003661386
+sumScore-games,0.188491106566234
+sumScore-friends,0.037482541556293
+sumScore-badges,0.0267654341248633
+status u count-screenshots,0.0928674250569494
+status u count-reviews,-0.591567163109972
+status u count-R,0.118540848297242
+status u count-level,-0.0206128016969791
+status u count-groups,-0.448676705412049
+status u count-games,-0.276228653678266
+status u count-friends,-0.198256356535122
+status u count-badges,-0.403668038252864
+screenshots-reviews,-0.0792044649428752
+screenshots-R,0.417748587370979
+reviews-R,0.130115518173777
+rank-sumScore,0.000260288978754848
+rank-status u count,-0.0309260921356039
+rank-screenshots,0.303283910850009
+rank-reviews,0.416994210141487
+rank-R,0.0422112745755376
+rankpercentage,0.176005723251926
+rank-level,0.0836638075449876
+rank-Last Two Weeks,-0.433198479079552
+rank-groups,-0.339610868881589
+rank-games,0.556380762645804
+rank-friends,-0.359226238242892
+rank-badges,0.14174017294174
+rank-ATH,-0.198799894413605
+percentage-sumScore,-0.0514394852192639
+percentage-status u count,-0.461741014099422
+percentage-screenshots,-0.163738462046856
+percentage-reviews,0.511417610891336
+percentage-R,0.282489844930493
+percentage-level,0.33050669960983
+percentage-Last Two Weeks,-0.0219252460176839
+percentage-groups,-0.115849603236208
+percentage-games,0.296439582144604
+percentage-friends,0.272018187507142
+percentage-badges,0.625655831451942
+percentage-ATH,0.575545101428352
+level-screenshots,0.286592555817974
+level-reviews,0.187652196377765
+level-R,0.639954350698683
+level-groups,-0.0653378089810002
+level-games,0.194646433429951
+level-friends,0.44406756602921
+level-badges,0.633047860042057
+Last Two Weeks-sumScore,-0.381206887700149
+Last Two Weeks-status u count,0.321535981244391
+Last Two Weeks-screenshots,-0.687659991329035
+Last Two Weeks-reviews,-0.339543468211446
+Last Two Weeks-R,-0.370364529665489
+Last Two Weeks-level,-0.521463130171979
+Last Two Weeks-groups,-0.158418409181957
+Last Two Weeks-games,-0.694104728473883
+Last Two Weeks-friends,-0.221324702722814
+Last Two Weeks-badges,-0.337321398053281
+Last Two Weeks-ATH,0.45945767933546
+groups-screenshots,-0.200360081476484
+groups-reviews,-0.121107649740712
+groups-R,-0.265562428423151
+games-screenshots,0.534238780157781
+games-reviews,0.547417096487681
+games-R,0.394568549656804
+games-groups,-0.242871048599789
+games-friends,-0.0124084954734664
+friends-screenshots,0.267449934798069
+friends-reviews,-0.0136406329936542
+friends-R,0.291833984348378
+friends-groups,0.112169742979741
+badges-screenshots,-0.121069162882165
+badges-reviews,0.504013231907939
+badges-R,0.26113393657302
+badges-groups,0.126502267572374
+badges-games,0.241003882198193
+badges-friends,0.28534212331902
+ATH-sumScore,-0.319990818445464
+ATH-status u count,-0.285656957231252
+ATH-screenshots,-0.536820735690782
+ATH-reviews,-0.00100997946549375
+ATH-R,-0.0797471746431525
+ATH-level,-0.189062139293859
+ATH-groups,0.187673245343024
+ATH-games,-0.221898727116551
+ATH-friends,0.190039322924245
+ATH-badges,0.304688569495466
+
